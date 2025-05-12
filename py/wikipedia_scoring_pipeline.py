@@ -29,7 +29,7 @@ import pandas as pd, re
 HEAT_W = {"pageview_spike":.35,"edit_spike":.35,"talk_intensity":.1,"protection_level":.2}
 QUAL_W = {"citation_gap":-.6,"readability":-.4}
 RISK_W = {"anon_share":1.0}
-GLOB_W = {"heat":.5,"quality":-.25,"risk":.25}
+GLOB_W = {"heat":.1/3,"quality":-.1/3,"risk":.1/3}
 
 # ───────────────────────────  Scaling ─────────────────────────
 
